@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: "Vadim",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,7 +32,7 @@ module.exports = {
       options: {
         baseUrl: "gatsby.vadim.wp-server.ru",
         protocol: "http",
-        useACF: true,
+        useACF: false,
         auth: {
           jwt_user: process.env.JWT_USER,
           jwt_pass: process.env.JWT_PASSWORD,
