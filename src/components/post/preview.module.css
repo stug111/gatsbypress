@@ -1,0 +1,33 @@
+.post {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@media (max-width: 568px) {
+  .post {
+    margin-bottom: 15px;
+  }
+}
+
+.post::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  background: rgba(0, 0, 0) url(../../images/plus.svg) no-repeat center center / 40px;
+  transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.post:hover::before {
+  display: block;
+  opacity: 0.5;
+}
