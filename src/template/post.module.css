@@ -1,0 +1,74 @@
+.title {
+  font-size: 2.1429rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.3214rem;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pretitle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2.57;
+  letter-spacing: 0.0286rem;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 1.7857rem;
+}
+
+.image {
+  margin-bottom: 3.5714rem;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-height: 350px;
+  margin-bottom: 70px;
+}
+
+.banner-title {
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 3.4286rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.3429rem;
+  text-transform: uppercase;
+  padding: 0 2.7143rem;
+  margin: 0 0 4.1429rem;
+  color: #ffffff;
+  background: #000;
+}
+
+.banner-pretitle {
+  font-family: Roboto;
+  font-size: 1.2857rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.5143rem;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+@media (max-width: 578px) {
+  .banner {
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 2.1429rem;
+  }
+}

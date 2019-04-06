@@ -1,13 +1,13 @@
 .post {
   display: inline-block;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 2.1429rem;
   position: relative;
 }
 
 @media (max-width: 568px) {
   .post {
-    margin-bottom: 15px;
+    margin-bottom: 1.0714rem;
   }
 }
 

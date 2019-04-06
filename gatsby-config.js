@@ -33,7 +33,7 @@ module.exports = {
       options: {
         baseUrl: "gatsby.vadim.wp-server.ru",
         protocol: "http",
-        useACF: false,
+        useACF: true,
         auth: {
           jwt_user: process.env.JWT_USER,
           jwt_pass: process.env.JWT_PASSWORD,
